@@ -1,0 +1,41 @@
+#---------------------------------
+# development mode => local環境
+#---------------------------------
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: lesson_dev
+  pool: 5
+  username: root
+  password: password
+  collation: utf8_general_ci
+  host: 127.0.0.1
+  port: 3306
+
+#---------------------------------
+# test mode => local環境
+#---------------------------------
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: lesson_test
+  pool: 5
+  username: root
+  password: password
+  collation: utf8_general_ci
+  host: 127.0.0.1
+  port: 3306
+
+#---------------------------------
+# production mode => local環境
+#---------------------------------
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: lesson_prod
+  pool: 5
+  username: root
+  password: password
+  collation: utf8_general_ci
+  host: 127.0.0.1
+  port: 3306
