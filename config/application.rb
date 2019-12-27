@@ -8,6 +8,8 @@ Bundler.require(*Rails.groups)
 
 module Lesson3
   class Application < Rails::Application
+    # DNS Rebuilding for Rails6.0
+    config.hosts << "lvh.me"
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 
