@@ -1,0 +1,13 @@
+#---------------------------------
+# development mode => local環境
+#---------------------------------
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: lesson_dev
+  pool: 5
+  username: root
+  password: Ptau7879
+  collation: utf8_general_ci
+  host: 127.0.0.1
+  port: 3306
