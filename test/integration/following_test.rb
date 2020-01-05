@@ -60,3 +60,4 @@ class FollowingTest < ActionDispatch::IntegrationTest
       assert_match CGI.escapeHTML(micropost.content), response.body
     end
   end
+end
